@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+}
+
+.canditate-title {
+    color: #02a602;
+}
+
+.homepage {
+    background:
+            linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),
+            url("banner.jpeg")
+            center / cover;
+    padding: 10px;
+    height: 80vh;
+    color: white;
+}
+
+.homepage h1 {
+    color: #eee;
+}
+
+.my-input {
+    width: 200px;
+}

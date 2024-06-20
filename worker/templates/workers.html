@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <h1 class="canditate-title">Кандидаты</h1>
+    {% for worker in workers %}
+        <div>
+            {{ worker.name }} - {{ worker.specialization }}
+        </div>
+    {% endfor %}
+
+{% endblock %}
